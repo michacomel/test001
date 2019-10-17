@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <!-- <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>Vuetify</span>
         <span class="font-weight-light">MATERIAL DESIGN</span>
@@ -13,21 +13,24 @@
       >
         <span class="mr-2">Latest Release</span>
       </v-btn>
-    </v-app-bar>
+    </v-app-bar> -->
 
     <v-content>
-      <HelloWorld/>
+      <!-- <HelloWorld/> -->
+      <formCode/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+// import HelloWorld from './components/HelloWorld';
+import formCode from './components/formCode';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    // HelloWorld,
+    formCode,
   },
   data: () => ({
     //
